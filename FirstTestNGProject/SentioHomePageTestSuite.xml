@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">	
+
+<suite thread-count="1" verbose="1" name="Gmail Suite" annotations="JDK" parallel="tests">
+         
+  <test name="FirstTestNGFile2">
+	 <classes>
+	   <class name="firsttestingpackage.FirstTestNGFile2"/>
+	 </classes>
+   </test>
+   
+  <test name="test">
+     <classes>
+       <class name="firsttestingpackage.test"/>
+     </classes>
+   </test>
+</suite>

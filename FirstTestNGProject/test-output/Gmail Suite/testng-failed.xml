@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [Gmail Suite]" parallel="tests">
+  <test name="FirstTestNGFile2(failed)" parallel="tests">
+    <classes>
+      <class name="firsttestingpackage.FirstTestNGFile2">
+        <methods>
+          <include name="verifyTCandPP"/>
+          <include name="verifyFAQandblog"/>
+          <include name="launchBrowser"/>
+          <include name="Pricing"/>
+          <include name="Features"/>
+          <include name="JoinUs"/>
+          <include name="averifyHomepageTitle"/>
+          <include name="terminateBrowser"/>
+          <include name="Login"/>
+          <include name="Contact"/>
+          <include name="verifySocial"/>
+        </methods>
+      </class> <!-- firsttestingpackage.FirstTestNGFile2 -->
+    </classes>
+  </test> <!-- FirstTestNGFile2(failed) -->
+  <test name="test(failed)" parallel="tests">
+    <classes>
+      <class name="firsttestingpackage.test">
+        <methods>
+          <include name="SignUp"/>
+          <include name="launchBrowser"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- firsttestingpackage.test -->
+    </classes>
+  </test> <!-- test(failed) -->
+</suite> <!-- Failed suite [Gmail Suite] -->

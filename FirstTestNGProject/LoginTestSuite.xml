@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">	
+
+<suite thread-count="1" verbose="1" name="Gmail Suite" annotations="JDK" parallel="tests">
+         
+  <test name="VerifyLoginExcel">
+	 <classes>
+	   <class name="firsttestingpackage.VerifyLoginExcel"/>
+	 </classes>
+   </test>
+   
+  <test name="LoginPageFPandSignup">
+     <classes>
+       <class name="firsttestingpackage.LoginPageFPandSignup"/>
+     </classes>
+   </test>
+</suite>
